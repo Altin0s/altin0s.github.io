@@ -1,0 +1,7 @@
+nav {
+  position: fixed;
+  display: flex;
+}
+nav > div {
+  padding: 10px;
+}
