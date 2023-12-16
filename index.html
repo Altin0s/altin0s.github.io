@@ -6,6 +6,7 @@
     <link rel="icon" href="icon.png" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="footer.css" />
     <title>Altinos</title>
   </head>
   <body>
@@ -32,7 +33,19 @@
         <img />
         <img />
       </div>
+      <!-- Import the component -->
+      <script
+        type="module"
+        src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+      ></script>
 
+      <!-- Use it like any other HTML element -->
+      <model-viewer
+        src="model.glb"
+        shadow-intensity="1"
+        camera-controls
+        touch-action="pan-y"
+      ></model-viewer>
       <div>
         <h2>Basics:</h2>
         <div class="list-scroll">
@@ -69,7 +82,7 @@
         <h3>Kontakt:</h3>
         <a>altinos@froxot.de</a>
       </div>
-      <div>
+      <div class="rechts">
         <a>Privacy Policy</a>
         <a>Impressum</a>
       </div>

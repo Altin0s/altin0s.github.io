@@ -1,0 +1,16 @@
+footer {
+  background-color: #191919;
+  color: white;
+  padding: 50px;
+  display: grid;
+}
+footer > div.rechts {
+  display: flex;
+  grid-column: 2 / 1 span;
+  grid-row: 1 / 1 span;
+  flex-direction: column;
+  align-items: end;
+}
+footer > div > h3 {
+  margin-top: 0;
+}
