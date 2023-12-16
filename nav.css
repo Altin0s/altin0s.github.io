@@ -1,0 +1,17 @@
+nav {
+  position: fixed;
+  display: grid;
+  width: 100%;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+nav > div {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.rechts {
+  flex-direction: row-reverse;
+  grid-column: 2 / 1 span;
+  grid-row: 1 / 1 span;
+}

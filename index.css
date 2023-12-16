@@ -1,12 +1,25 @@
-nav {
-  position: fixed;
-  display: flex;
-}
-nav > div {
-  padding: 10px;
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
 }
 main {
   display: grid;
-  grid-row: 100px;
-  grid-template-columns: 100px;
+}
+#main-images {
+  height: 100vh;
+  width: 100%;
+}
+.list-scroll {
+  position: relative;
+  height: 30ch;
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
+  margin: 10px;
+}
+.list-scroll > img {
+  flex-shrink: 0;
+  height: 100%;
+  width: 40ch;
 }
