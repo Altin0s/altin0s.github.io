@@ -9,16 +9,28 @@ main {
   height: 100vh;
   width: 100%;
 }
-.list-scroll {
-  position: relative;
-  height: 30ch;
+#main-images > img {
+  height: 100%;
   width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.list-scroll {
+  height: 30ch;
+  width: 98vw;
   overflow-x: scroll;
   display: flex;
   margin: 10px;
+  box-sizing: border-box;
 }
 .list-scroll > img {
   flex-shrink: 0;
   height: 100%;
   width: 40ch;
+}
+h2 {
+  padding-left: 5ch;
+}
+h1 {
+  text-align: center;
 }
